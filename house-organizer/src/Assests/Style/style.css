@@ -4,3 +4,12 @@
 .pb-5 {
   padding-bottom: 5rem !important;
 }
+footer {
+  padding: 25px 0;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 30%);
+}
+footer ul li a {
+  color: #8993a4;
+  text-decoration: underline;
+}
