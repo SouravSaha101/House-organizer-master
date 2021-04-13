@@ -4,17 +4,6 @@ import Footer from "./Components/Footer/Footer";
 import HomeNav from "./Components/Home-Nav/HomeNav";
 
 const App = () => {
-  const [scroll, setScroll] = useState(0);
-
-  useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const scrollCheck = window.scrollY < 100;
-      if (scrollCheck !== scroll) {
-        setScroll(scrollCheck);
-      }
-    });
-  });
-
   return (
     <div className="App">
       <HomeNav />
