@@ -1,3 +1,6 @@
+.App {
+  background: linear-gradient(0deg, #fff, #eae6ff 100%);
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -13,6 +16,8 @@
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
+  font-family: "Charlie Display", sans-serif;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
