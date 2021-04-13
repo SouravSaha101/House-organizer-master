@@ -1,22 +1,11 @@
 import React from "react";
 import "./App.css";
-
+import Footer from "./Components/Footer/Footer";
+import HomeNav from "./Components/Home-Nav/HomeNav";
 const App = () => {
   return (
     <div className="App">
-      <header id="nav">
-        <nav className="navbar navbar-dark  bg-dark fixed-top" id="mainNav">
-          <div className="container">
-            <a className="navbar-brand  mr-0">Home Organizer</a>
-            <div className="float-right">
-              <a className="btn btn-lg btn-link text-primary">Log in</a>
-              <a className="btn btn-lg bg-primary text-white font-weight-bold">
-                Sign up
-              </a>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <HomeNav />
       <section id="home">
         <div className="container pt-10 pb-5 text-center">
           <div className="row align-items-center">
@@ -59,29 +48,7 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      <footer>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-              <span className="copyright">
-                &copy; Copyright 2021. All rights reserved
-              </span>
-            </div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4">
-              <ul className="list-inline quicklinks">
-                <li className="list-inline-item">
-                  <a href="#">Privacy Policy</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#">Terms of Use</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
